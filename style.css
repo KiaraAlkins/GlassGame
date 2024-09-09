@@ -1,0 +1,187 @@
+body {
+
+    background-color: rgb(41, 39, 39);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tela {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+
+.telaInicial {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(53, 52, 54);
+    border: 2px solid #5a86ff;
+    border-radius: 50px;
+    height: 600px;
+    width: 600px;
+    gap: 10px;
+}
+
+.containerDivEnglobar {
+    display: flex;
+    align-self: center;
+    justify-items: center;
+}
+
+.containerFileira {
+    display: flex;
+    flex-direction: column;
+}
+
+.containerDIVinDIV {
+    display: flex;
+    flex-direction: column;
+}
+
+.espelhoAzul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    height: 40px;
+    width: 40px;
+}
+
+.escolhido {
+    position: absolute;
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    margin: 20px 20px;
+}
+
+.button-skip {
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 50px;
+    border: 2px solid #5a86ff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(27, 27, 27);
+    width: 200px
+}
+
+.button-skip:hover {
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 50px;
+    border: 2px solid #b4b4b4;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: transparent;
+    width: 200px
+}
+
+.container-botoes-dificuldade {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.botoes-dificuldade {
+    padding: 20px;
+    font-size: 16px;
+    width: 200px;
+    font-size: 18px;
+    color: white;
+    border: 2px solid #5a86ff;
+    border-radius: 50px;
+    background-color: rgb(27, 27, 27);
+}
+
+.botoes-dificuldade:hover {
+    padding: 20px;
+    font-size: 16px;
+    width: 200px;
+    font-size: 18px;
+    color: white;
+    border: 2px solid #b4b4b4;
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+.container-Voltar {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.botao-voltar {
+    padding: 15px;
+    font-size: 16px;
+    margin-top: 10px;
+    border: 2px solid #5a86ff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(27, 27, 27);
+    border-radius: 50px;
+}
+
+.botao-voltar:hover {
+    padding: 15px;
+    font-size: 16px;
+    margin-top: 10px;
+    border: 2px solid #5a86ff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: transparent;
+    border-radius: 50px;
+}
+
+.container-game {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(53, 52, 54);
+    border: 2px solid #5a86ff;
+    border-radius: 50px;
+    height: 600px;
+    width: 600px;
+}
+
+.mainContainerGame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 540px;
+}
+
+
+.HeaderGame {
+    display: flex;
+    align-items: center;
+    height: 20px;
+    padding: 20px;
+    justify-content: center;
+    border-radius: 50px;
+    border: #5a86ff solid 2px;
+    margin: 15px 15px 0 15px;
+}
